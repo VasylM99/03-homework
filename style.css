@@ -1,0 +1,95 @@
+﻿body{
+    background-color: #2c2c2c;
+    height: 100vh;
+    font-size: 14px;
+}
+.tables {
+margin: 5%;
+width: 60%;
+border-radius: 5px;
+border-collapse: collapse;
+box-shadow: 0 0 0 1px #777777;
+border-top: 0px;
+text-align: left;
+}
+
+
+
+tr, td, table{
+    border-top: 1px solid #777777;
+    color: white;
+    height: 45px;
+    width: 50%;
+    
+}
+
+tr{
+    border-top: 0px;
+   
+}
+
+
+th,td{
+   padding: 0 15px;
+   
+}
+
+td:nth-child(2){
+    color: #777777;
+}
+
+.list3{
+    width: 72%;
+}
+.list3::after{
+    content: ''; 
+    position: relative;
+    margin: 5px;
+    top: 10px;
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+}
+.list::after{
+    content: ''; 
+    position: relative;
+    margin: 5px;
+    top: 10px;
+    border: 5px solid transparent;
+    border-top: 5px solid white;
+}
+
+
+.tochki::after{
+    content: '•••';
+    font-size: 15px;
+    float: right;
+}
+
+.tochkicolor::after{
+    content: '•••';
+    font-size: 15px;
+    color: #777777;
+}
+
+.search{
+    border: 1px;
+    border-radius: 5px;
+    height: 30px;
+    background: #333333 url('search.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    background-position: left;
+    padding: 0 25px;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: inline-block;
+    vertical-align: text-bottom;
+   
+}
+
